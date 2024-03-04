@@ -1,0 +1,23 @@
+{
+  "name": "myfresto",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "vite",
+    "dev": "concurrently \"json-server --watch data.json --port 3000\" \"npm run serve\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "concurrently": "^8.2.2",
+    "json-server": "^1.0.0-alpha.23",
+    "vite": "^5.1.4"
+  }
+}
